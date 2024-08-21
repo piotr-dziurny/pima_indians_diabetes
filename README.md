@@ -23,6 +23,15 @@ W zbiorze danych znajduje się 268 pacjentów ze stwierdzoną cukrzycą, oraz 50
 W projekcie nie uwzględnono analizy interakcji między zmiennymi. W przyszłości należałoby ją wykonać, aby lepiej zrozumieć jak poszczególne interakcje wpływają na ryzyko wystąpienia cukrzycy.
 
 ### Wyniki
+
+#### Interpretacja modelu logitowego
+
+1. Zmiana Pregnancies o jedną jednostkę powoduje wzrost szansy na wystąpienie cukrzycy o 12.1%, *ceteris paribus*.
+2. Zmiana Glucose o jedną jednostkę powoduje wzrost szansy na wystąpienie cukrzycy o 4.02%, *ceteris paribus*.
+3. Zmiana BMI o jedną jednostkę powoduje wzrost szansy na wystąpienie cukrzycy o 8.52%, *ceteris paribus*.
+4. Zmiana DiabetesPedigreeFunction o jedną jednostkę powoduje wzrost szansy na wystąpienie cukrzycy o 174.89%, *ceteris paribus*.
+5. Zmiana Age o jedną jednostkę powoduje wzrost szansy na wystąpienie cukrzycy o 2.58%, *ceteris paribus*.
+
 ![roc](roc.png)
 
 ### Źródła
